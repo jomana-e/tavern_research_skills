@@ -23,7 +23,7 @@ All outputs should be resproducible.
 
 - `questions.csv` (Questions / data file)
 - `question_bank.ipynb` (Notebook containing code)
-- `question_bank_outline.md` (Outline, rationale, and diagram)
+- `question_bank_outline.md` (Outline and rationale)
 
 ---
 
