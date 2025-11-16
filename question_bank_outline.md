@@ -47,11 +47,12 @@ Response options come from a single pipe-separated field and are expanded into s
 
 ## ERD (Entity-Relationship Diagram)
 
-+-----------------+ 1-to-many +----------------------+
-| questions |-------------------------->| response_options |
-+-----------------+ +----------------------+
-| question_id PK | | option_id (optional) |
-| question_text | | question_id FK |
-| question_type | | option_text |
-| field_date | | option_order |
-+-----------------+ +----------------------+
++-----------------+                           +----------------------+
+|    questions    |                           |   response_options   |
++-----------------+                           +----------------------+
+| question_id PK  |                           | option_id (optional) |
+| question_text   |                           | question_id FK       |
+| question_type   |                           | option_text          |
+| field_date      |                           | option_order         |
++-----------------+                           +----------------------+
+
